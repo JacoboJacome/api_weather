@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 
 import InformationCity from '../../Components/Home/InformationCity/InformationCity'
-import Loader from '../../Components/Custom/Loader/Loader'
 
 const WatherInformation = () => {
     const city = useParams ();

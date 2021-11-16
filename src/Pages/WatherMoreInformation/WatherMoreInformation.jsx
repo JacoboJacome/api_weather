@@ -24,7 +24,7 @@ const WatherMoreInformation = () => {
 		};
 
 		handleMoreCitytData();
-	}, []);
+	}, [city.name]);
     return (
         <div className="flex flex-col md:flex-wrap justify-center aling-center m-auto w-full max-w-lg">
 			{
