@@ -15,9 +15,9 @@ const Home = () => {
   const [statusText, setStatusText] = useState(null);
 
   //Funciones
-  const handleCity = ({ value }) => {
-    setCityName(value);
-  };
+    const handleCity = ({ value }) => {
+      setCityName(value);
+    };
 
   const handleSearchWeather = async e => {
     e.preventDefault();
