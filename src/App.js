@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
       <MainLayaut>
         <Routes>
-          <Route path="/api_weather" exact element={<Home />} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/city/:name" exact element={<WatherMoreInformation/>} />
           <Route path="*" element={<Error/>} />
         </Routes>
