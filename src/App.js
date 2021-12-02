@@ -5,7 +5,6 @@ import { BrowserRouter,Routes, Route} from "react-router-dom"
 
 //Pages
 import Home from "./Pages/Home/Home"
-import WeatherInformation from './Pages/WatherInformation/WatherInformation';
 import MainLayaut from './Layaut/MainLayaut';
 import Error from "./Pages/Error/Error"
 import WatherMoreInformation from './Pages/WatherMoreInformation/WatherMoreInformation';
